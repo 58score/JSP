@@ -11,12 +11,12 @@
 	<%=session.getId() %>
 	<%
 	    String name = "liang";
-		session.setAttribute("anotherusername",name);
+		session.setAttribute("username",name);
 	%>
 	</br>
 	<h1>
 	欢迎回来:
-	<%=session.getAttribute("anotherusername").toString()%>
+	<%=session.getAttribute("username").toString()%>
 	</h1>
 </body>
 </html>
